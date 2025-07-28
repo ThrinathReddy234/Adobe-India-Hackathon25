@@ -1,0 +1,140 @@
+{
+    "title": "UNIT — III Message Authentication Algorithms and Hash Functions: Authentication requirements, Functions, Message authentication codes, Hash Functions, Secure hash algorithm, HMAC, Digital signatures, Authentication Applications: Kerberos, X.509 Authentication Service, Public — Key Infrastructure, Public Key management. UNIT — IV E-Mail Security: Pretty Good Privacy, S/MIME IP Security: IP Security overview, IP Security architecture, Authentication Header, Encapsulating security payload, Combining associations, key management ",
+    "outline": [
+        {
+            "level": "H1",
+            "text": "Outcomes: ",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "INDEX ",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "There are two aspects of Key Management:1. Distribution of public keys.2. Use of public-key encryption to distribute secrets. 3. ",
+            "page": 32
+        },
+        {
+            "level": "H1",
+            "text": "2. Publicly Available Directory: In this type, the public key is stored in a public directory.Directories are trusted here, with properties like Participant Registration, access and allow tomodify values at any time, contains entries like {name, public-key}. Directories can beaccessed electronically still vulnerable to forgery or tampering. ",
+            "page": 33
+        },
+        {
+            "level": "H1",
+            "text": "3. Public Key Authority: It is similar to the directory but, improves security by tighteningcontrol over the distribution of keys from the directory. It requires users to know the publickey for the directory. Whenever the keys are needed, real-time access to the directory ismade by the user to obtain any desired public key securely. ",
+            "page": 33
+        },
+        {
+            "level": "H1",
+            "text": "4. Public Certification: This time authority provides a certificate (which binds an identity to the public key) to allow key exchange without real-time access to the public authority each time. The certificate is accompanied by some other info such as period of validity, rights of use, etc. All of this content is signed by the private key of the certificate authority and it can beverifiedbyanyonepossessingtheauthority’spublickey. ",
+            "page": 33
+        },
+        {
+            "level": "H1",
+            "text": "1. Key Generation: ",
+            "page": 33
+        },
+        {
+            "level": "H1",
+            "text": "2. Key Distribution: ",
+            "page": 33
+        },
+        {
+            "level": "H1",
+            "text": "4. Key Usage: ",
+            "page": 34
+        },
+        {
+            "level": "H1",
+            "text": "5. Key Rotation: ",
+            "page": 34
+        },
+        {
+            "level": "H1",
+            "text": "6. Key Revocation: ",
+            "page": 34
+        },
+        {
+            "level": "H1",
+            "text": "7. Key Archival: ",
+            "page": 34
+        },
+        {
+            "level": "H1",
+            "text": "8. Key Destruction: ",
+            "page": 34
+        },
+        {
+            "level": "H1",
+            "text": "1.BetweenInternalNetwork ",
+            "page": 86
+        },
+        {
+            "level": "H1",
+            "text": "2.Between the Internetand a Demilitarized Zone (DMZ Firewall) ",
+            "page": 86
+        },
+        {
+            "level": "H1",
+            "text": "3.Between Internal Subnets (Internal SegmentationFirewall) ",
+            "page": 87
+        },
+        {
+            "level": "H1",
+            "text": "4.On Individual Hosts (Host-Based Firewall) ",
+            "page": 87
+        },
+        {
+            "level": "H1",
+            "text": "5.In Cloud or Virtual Environments (Cloud-Based Firewall or FWaaS) ",
+            "page": 87
+        },
+        {
+            "level": "H1",
+            "text": "1. Definition ",
+            "page": 87
+        },
+        {
+            "level": "H1",
+            "text": "2. Key Features of NGFWa. Application Awareness & Control ",
+            "page": 87
+        },
+        {
+            "level": "H1",
+            "text": "3. Advantages of NGFWs ",
+            "page": 88
+        },
+        {
+            "level": "H1",
+            "text": "4. Difference Between Traditional Firewall and Next Generation Firewall ",
+            "page": 88
+        },
+        {
+            "level": "H1",
+            "text": "5. Examples of NGFW Vendors ",
+            "page": 89
+        },
+        {
+            "level": "H1",
+            "text": "6. Use Cases ",
+            "page": 89
+        },
+        {
+            "level": "H1",
+            "text": "2. Key Characteristics of Trusted Systems ",
+            "page": 89
+        },
+        {
+            "level": "H1",
+            "text": "3. Examples of Trusted Systems ",
+            "page": 89
+        },
+        {
+            "level": "H1",
+            "text": "4. Benefits of Trusted Systems ",
+            "page": 89
+        }
+    ]
+}
